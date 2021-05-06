@@ -1,18 +1,41 @@
-import { createApp } from "vue";
-import App from "./App.vue";
-import router from "./router";
-import store from "./store";
-import axios from "axios";
+import Vue from 'vue';
+import upperFirst from 'lodash/upperFirst';
+import camelCase from 'lodash/camelCase';
 
-import "bootstrap/dist/css/bootstrap.css";
-import "bootstrap-icons/font/bootstrap-icons.css";
+import App from './App.vue';
+import router from './router';
+import store from './store';
 
-import "@/css/style.css";
+import 'bootstrap/dist/css/bootstrap.css';
+//import 'bootswatch/dist/[theme]/bootstrap.min.css';
 
-const app = createApp(App)
-  .use(store)
-  .use(router);
+import '@/css/style.css';
 
-app.config.globalProperties.axios = axios;
+Vue.config.productionTip = false;
 
-app.mount("#app");
+const requireComponent = require.context(
+  './components',
+  false,
+  /Base[A-Z]\w+\.(vue|js)$/
+);
+
+requireComponent.keys().forEach(fileName => {
+  const componentConfig = requireComponent(fileName);
+
+  const componentName = upperFirst(
+    camelCase(fileName.replace(/^\.\/(.*)\.\w+$/, '$1'))
+  );
+
+  Vue.component(componentName, componentConfig.default || componentConfig);
+});
+
+new Vue({
+  router,
+  store,
+  render: h => h(App),
+  beforeCreate() {
+    this.$store.dispatch('init');
+  }
+}).$mount('#app');
+
+

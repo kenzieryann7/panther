@@ -1,24 +1,34 @@
-import { createRouter, createWebHistory } from "vue-router";
-import Intro from "../views/Intro.vue";
-import Main from "../views/Main.vue";
+import Vue from 'vue';
+import VueRouter from 'vue-router';
+
+import Home from '../views/Home.vue';
+import Gathering from '../views/Gathering.vue';
+// import viewName from "../views/ViewName.vue"
+
+Vue.use(VueRouter);
 
 const routes = [
   {
-    path: "/",
-    name: "Intro",
-    component: Intro
+    path: '/',
+    name: 'Home',
+    component: Home
   },
   {
-    path: "/main", // routes should be lowercase
-    name: "Main",
-    component: Main
+    path: '/Gathering.vue',
+    name: 'Gathering',
+    component: Gathering
   }
+  //{
+  //  path: '/viewName',
+  //  name: 'ViewName',
+  //  component: () =>
+  //    import(/* webpackChunkName: "viewName" */ '../views/ViewName.vue')
+  //}
 ];
 
-const router = createRouter({
-  mode: "history",
-  linkExactActiveClass: "fw-bold", // In the navbar, the active view appears bold
-  history: createWebHistory(process.env.BASE_URL),
+const router = new VueRouter({
+  mode: 'history',
+  base: process.env.BASE_URL,
   routes
 });
 

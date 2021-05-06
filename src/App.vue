@@ -1,24 +1,30 @@
 <template>
-  <Header />
-  <Navbar class="mb-5" />
-  <router-view />
-  <Footer />
+  <div id="app">
+    <BaseHeader />
+    <div class="row">
+      <div class="col-2">wow</div>
+
+      <div class="col-8">
+        <router-view />
+      </div>
+
+      <div class="col-2">hi</div>
+    </div>
+
+  </div>
 </template>
 
-<script>
-// @ is an alias to /src
-import Header from "@/components/Header.vue";
-import Navbar from "@/components/Navbar.vue";
-import Footer from "@/components/Footer.vue";
 
-export default {
-  name: "App",
-  components: {
-    Header,
-    Navbar,
-    Footer
-  }
-};
-</script>
+<style>
 
-<style></style>
+a.router-link-exact-active {
+  /*  color: #42b983 !important; */
+}
+
+body {
+  padding: 0;
+  font-family: 'Open Sans';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+</style>

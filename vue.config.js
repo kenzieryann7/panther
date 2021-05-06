@@ -1,32 +1,15 @@
 module.exports = {
-  publicPath: process.env.NODE_ENV === "production" ? "/REPLACE_ME/" : "/",
-  pluginOptions: {
-    s3Deploy: {
-      registry: undefined,
-      awsProfile: "default",
-      overrideEndpoint: false,
-      region: "us-west-2",
-      bucket: "",
-      createBucket: false,
-      staticHosting: true,
-      staticIndexPage: "index.html",
-      staticErrorPage: "index.html",
-      assetPath: "dist",
-      assetMatch: "**",
-      deployPath: "/REPLACE_ME/",
-      acl: "public-read",
-      pwa: false,
-      enableCloudfront: true,
-      cloudfrontId: "E25V8K87R8LY63",
-      cloudfrontMatchers: "/REPLACE_ME",
-      pluginVersion: "4.0.0-rc3",
-      uploadConcurrency: 5
-    }
-  },
+  //publicPath: '/#/'
   chainWebpack: config => {
-    config.plugin("html").tap(args => {
-      args[0].title = `${process.env.VUE_APP_COURSE} | ${process.env.VUE_APP_TITLE}`;
-      return args;
-    });
+    const svgRule = config.module.rule('svg');
+
+    svgRule.uses.clear();
+
+    svgRule
+      .use('babel-loader')
+      .loader('babel-loader')
+      .end()
+      .use('vue-svg-loader')
+      .loader('vue-svg-loader');
   }
 };
