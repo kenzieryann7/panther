@@ -1,13 +1,13 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-      <img src="assets/panther.png" class="img-fluid">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark p-0">
+      <img src="@/assets/panther.jpg" alt="Panther Logo" class="img-fluid mr-3" width="80px" height="80px">
       <div
         class="pr-3 mr-3 pl-3 border-left border-secondary d-none d-sm-block text-light"
       >
         <h1 class="h5 m-0 p-0 text-uppercase font-weight-bold">
           <span class="title-course">Panther</span
-          >ESO Wiki
+          >Elder Scrolls Online Wiki
         </h1>
       </div>
 
