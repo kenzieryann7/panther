@@ -21,3 +21,20 @@ body {
     background-color: slategray;
 }
 
+.mainNav {
+    font-size: 18px;
+}
+
+.craftingIcon {
+    float: left;
+}
+
+.craftingTitle {
+    float: left;
+}
+
+.provisioningIcon {
+    float: left;
+    width: 43.73px;
+    height: 43.73px;
+}

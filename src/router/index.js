@@ -8,7 +8,7 @@ import Blacksmithing from '../views/Blacksmithing.vue';
 import Clothier from '../views/Clothier.vue';
 import Enchanting from '../views/Enchanting.vue';
 import Provisioning from '../views/Provisioning.vue';
-import JewelryCrafting from '../views/JewelryCrafting.vue';
+import Jewelcrafting from '../views/Jewelcrafting.vue';
 import CraftedSets from '../views/CraftedSets.vue';
 
 Vue.use(VueRouter);
@@ -51,8 +51,8 @@ const routes = [
   },
   {
     path: '/',
-    name: 'JewelryCrafting',
-    component: JewelryCrafting
+    name: 'Jewelcrafting',
+    component: Jewelcrafting
   },
   {
     path: '/',

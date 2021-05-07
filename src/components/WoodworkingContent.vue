@@ -1,11 +1,11 @@
 <template>
   <div>
-    <h1 class="text-center">Jewelry Crafting</h1>
+    <h1 class="text-center">Woodworking</h1>
     <div class="card text-white bg-dark mb-3">
       <div class="card-header"><h3>About</h3></div>
       <div class="card-body">
         <p class="card-text mb-3">
-          Jewelry Crafting!!!
+          Woodworking!!!
         </p>
       </div>
     </div>
@@ -14,7 +14,7 @@
 
 <script>
 export default {
-  name: 'JewelryCraftingContent',
+  name: 'WoodworkingContent',
   props: {},
   computed: {}
 };

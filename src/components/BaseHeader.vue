@@ -12,7 +12,7 @@
       </div>
 
       <!-- Below is where it populates the nav links -->
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <div class="collapse navbar-collapse mainNav" id="navbarTogglerDemo03">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item">
             <router-link :to="{ name: 'Home' }" class="nav-link"
@@ -27,6 +27,10 @@
             <li>
               <router-link :to="{ name: 'Crafting' }" class="dropdown-item text-white"
               >Crafting</router-link>  
+            </li>
+            <li>
+              <router-link :to="{ name: 'CraftedSets' }" class="dropdown-item text-white"
+              >Crafted Sets</router-link> 
             </li>
             <li>
               <router-link :to="{ name: 'Alchemy' }" class="dropdown-item text-white"
@@ -49,12 +53,8 @@
               >Provisioning</router-link> 
             </li>
             <li>
-              <router-link :to="{ name: 'JewelryCrafting' }" class="dropdown-item text-white"
-              >Jewelry Crafting</router-link> 
-            </li>
-            <li>
-              <router-link :to="{ name: 'CraftedSets' }" class="dropdown-item text-white"
-              >Crafted Sets</router-link> 
+              <router-link :to="{ name: 'Jewelcrafting' }" class="dropdown-item text-white"
+              >Jewelcrafting</router-link> 
             </li>
           </ul>
         </li>
