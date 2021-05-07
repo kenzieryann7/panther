@@ -3,7 +3,7 @@
     <h1 class="text-center">Crafting</h1>
 
     <!-- ABOUT CRAFTING -->
-    <div class="card text-white bg-dark mb-3">
+    <div class="card shadow-lg text-white bg-dark mb-3">
       <div class="card-header"><h4>Crafting in Elder Scrolls Online</h4></div>
       <div class="card-body">
         <p class="card-text mb-3">
@@ -60,7 +60,7 @@
     <div class="row">
       <!-- LEFT COL -->
       <div class="col"> 
-        <div class="card text-white bg-dark mb-3 ml-3">
+        <div class="card shadow-lg text-white bg-dark mb-3 ml-3">
           <div class="card-header">
             <div class="row">
               <div class="col-2">
@@ -74,12 +74,12 @@
           </div>
           <div class="card-body">
             <p class="card-text">
-              The <b>Alchemy</b> profession allows you to craft potions and poisons to aid your adventures. You craft these items at the appropriate crafting station with <b>reagents</b> and <b>solvents</b> you find throughout Tamriel. You can find recipes to learn how to craft certain potions. You need to increase your skill level to create higher level potions that reduce the chances of negative effects from the potions you craft. 
+              The <b>Alchemy</b> profession allows you to craft potions and poisons to aid your adventures. You craft these items at the appropriate crafting station with <b>reagents</b> and <b>solvents</b> you find throughout Tamriel. You can find recipes to learn how to craft certain potions and posions. You need to increase your skill level to create higher level potions that reduce the chances of negative effects from the potions you craft. 
             </p>
           </div>
         </div>
 
-        <div class="card text-white bg-dark mb-3 ml-3">
+        <div class="card shadow-lg text-white bg-dark mb-3 ml-3">
           <div class="card-header">
             <div class="row">
               <div class="col-2">
@@ -92,11 +92,13 @@
             </div>
           </div>
           <div class="card-body">
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text">
+              A <b>Clothier</b> can craft light and medium armors. They search for <b>plants</b> and <b>hide</b> to create their armor. Finding motifs and special crafting books you can explore new traits of higher quality and new racial styles.
+            </p>
           </div>
         </div>
 
-        <div class="card text-white bg-dark mb-3 ml-3">
+        <div class="card shadow-lg text-white bg-dark mb-3 ml-3">
           <div class="card-header">
             <div class="row">
               <div class="col-2">
@@ -109,31 +111,16 @@
             </div>
           </div>
           <div class="card-body">
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-        </div>
-
-        <div class="card text-white bg-dark mb-3 ml-3">
-          <div class="card-header">
-            <div class="row">
-              <div class="col-2">
-                <img src="@/assets/woodworking-icon.png" class="craftingIcon img-fluid"/>
-              </div>
-
-              <div class="col craftingTitle">
-                <h4>Woodworking</h4>
-              </div>
-            </div>
-          </div>
-          <div class="card-body">
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text">
+              <b>Provisioning</b> involves cooking food and making drinks to enhance your stats such as Health, Magicka, or Stamina. Food gives you long term stat boosts whereas drinks help improve your stat recovery.
+            </p>
           </div>
         </div>
       </div>
 
       <!-- RIGHT COL -->
       <div class="col">
-        <div class="card text-white bg-dark mb-3 mr-3">
+        <div class="card shadow-lg text-white bg-dark mb-3 mr-3">
           <div class="card-header">
             <div class="row">
               <div class="col-2">
@@ -146,11 +133,13 @@
             </div>
           </div>
           <div class="card-body">
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text">
+              <b>Blacksmithing</b> is where you can craft weapons and heavy armor at the forge. You use raw resources that are gathered by mining metals throughout the world. You can find special crafting books and recipies to learn new racial styles and traits. 
+            </p>
           </div>
         </div>
 
-        <div class="card text-white bg-dark mb-3 mr-3">
+        <div class="card shadow-lg text-white bg-dark mb-3 mr-3">
           <div class="card-header">
             <div class="row">
               <div class="col-2">
@@ -163,11 +152,13 @@
             </div>
           </div>
           <div class="card-body">
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text">
+              You guessed it, <b>Enchanting</b> lets you enchant your armor and weapons to have special abilities. You can find runestones throughout your journies to transform runes into glyphs that you can apply to your items. You can also extract runes from glyphs you created or found. There are three different types of runes: Potency, Aspect and Essence. When combined, you can create powerful glphs to aid your battles in PVE and PVP.
+            </p>
           </div>
         </div>
 
-        <div class="card text-white bg-dark mb-3 mr-3">
+        <div class="card shadow-lg text-white bg-dark mb-3 mr-3">
           <div class="card-header">
             <div class="row">
               <div class="col-2">
@@ -180,7 +171,28 @@
             </div>
           </div>
           <div class="card-body">
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text">
+              With the Jewelry Crafting profession you can craft necklaces and rings that can enhance your stats. You use precious metals such as copper and metal dust from mining seams to create jewelry. Note that Jewel Crafting is only available to players who have bought the Summerset Chapter.
+            </p>
+          </div>
+        </div>
+
+        <div class="card shadow-lg text-white bg-dark mb-3 mr-3">
+          <div class="card-header">
+            <div class="row">
+              <div class="col-2">
+                <img src="@/assets/woodworking-icon.png" class="craftingIcon img-fluid"/>
+              </div>
+
+              <div class="col craftingTitle">
+                <h4>Woodworking</h4>
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="card-text">
+              The <b>Woodworking</b> profession lets you craft bows, staffs, and shields. You find materials by cutting wood you find scattered along the ground. You can refine these raw materials to craft higher quality items. Look for special crafting books to learn new styles and traits.
+            </p>
           </div>
         </div>
       </div>
