@@ -6,6 +6,10 @@ body {
     background: slategray;
 }
 
+.homePageContent {
+    height: 100vw;
+}
+
 .nav-tabs {
     border-bottom: 2px solid black;
 }

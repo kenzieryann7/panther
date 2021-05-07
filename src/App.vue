@@ -24,6 +24,5 @@ body {
 }
 .contentBackdrop {
     background-color: rgb(148, 148, 148);
-    height: 100vw;
 }
 </style>
