@@ -1,2 +1,2 @@
-# Obsidian RPG
-Incremental game using the Vue framework.
+# Panther
+An Elder Scrolls Wiki with Vue 3.
