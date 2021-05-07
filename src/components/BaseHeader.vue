@@ -14,13 +14,50 @@
       <!-- Below is where it populates the nav links -->
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li v-for="link in links" :key="link.label">
-            <router-link
-              class="nav-link text-white"
-              :to="{ name: link.name }"
-              >{{ link.label }}</router-link
+          <li class="nav-item">
+            <router-link :to="{ name: 'Home' }" class="nav-link"
+              >Home</router-link
             >
           </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Crafting
+          </a>
+          <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+            <li>
+              <router-link :to="{ name: 'Crafting' }" class="dropdown-item text-white"
+              >Crafting</router-link>  
+            </li>
+            <li>
+              <router-link :to="{ name: 'Alchemy' }" class="dropdown-item text-white"
+              >Alchemy</router-link> 
+            </li>
+            <li>
+              <router-link :to="{ name: 'Blacksmithing' }" class="dropdown-item text-white"
+              >Blacksmithing</router-link> 
+            </li>
+            <li>
+              <router-link :to="{ name: 'Clothier' }" class="dropdown-item text-white"
+              >Clothier</router-link> 
+            </li>
+            <li>
+              <router-link :to="{ name: 'Enchanting' }" class="dropdown-item text-white"
+              >Enchanting</router-link> 
+            </li>
+            <li>
+              <router-link :to="{ name: 'Provisioning' }" class="dropdown-item text-white"
+              >Provisioning</router-link> 
+            </li>
+            <li>
+              <router-link :to="{ name: 'JewelryCrafting' }" class="dropdown-item text-white"
+              >Jewelry Crafting</router-link> 
+            </li>
+            <li>
+              <router-link :to="{ name: 'CraftedSets' }" class="dropdown-item text-white"
+              >Crafted Sets</router-link> 
+            </li>
+          </ul>
+        </li>
         </ul>
       </div>
     </nav>
@@ -28,7 +65,6 @@
 </template>
 
 <script>
-import { NavData } from '@/data/NavData.js';
 
 export default {
   name: 'BaseHead',
@@ -36,7 +72,7 @@ export default {
   data: function() {
     return {
       api: process.env.VUE_APP_API_URL,
-      links: NavData
+      links: Array
     };
   },
   computed: {}

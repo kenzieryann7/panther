@@ -1,16 +1,16 @@
 <template>
   <div class="container-fluid p-0">
-    <Content />
+    <AlchemyContent />
   </div>
 </template>
 
 <script>
-import Content from "@/components/Content.vue";
+import AlchemyContent from "@/components/AlchemyContent.vue";
 
 export default {
-  name: 'Home',
+  name: 'Alchemy',
   components: {
-    Content
+    AlchemyContent
   }
 };
 </script>

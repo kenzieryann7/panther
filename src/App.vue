@@ -2,13 +2,13 @@
   <div id="app">
     <BaseHeader />
     <div class="row">
-      <div class="col-2"></div>
+      <div class="col"></div>
 
-      <div class="col-8 contentBackdrop p-0 rounded shadow shadow-lg">
+      <div class="col-10 contentBackdrop p-0 rounded shadow shadow-lg">
         <router-view />
       </div>
 
-      <div class="col-2"></div>
+      <div class="col"></div>
     </div>
 
   </div>
@@ -23,7 +23,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 .contentBackdrop {
-    background-color: whitesmoke;
+    background-color: rgb(148, 148, 148);
     height: 100vw;
 }
 </style>

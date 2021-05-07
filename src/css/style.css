@@ -5,3 +5,19 @@
 body {
     background: slategray;
 }
+
+.nav-tabs {
+    border-bottom: 2px solid black;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: white;
+    background-color: slategray;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.dropdown-menu > li > a:hover {
+    background-image: none;
+    background-color: slategray;
+}
+
