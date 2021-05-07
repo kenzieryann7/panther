@@ -1,14 +1,13 @@
 <template>
   <div class="container">
-    Hello world im gathering! {{ gold }}
+    Crafting
   </div>
 </template>
 
 <script>
-import {Resources} from '@/data/Resources.js';
 
 export default {
-  name: 'Gathering',
+  name: 'Crafting',
   components: {}
 };
 </script>

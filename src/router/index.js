@@ -2,8 +2,7 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 
 import Home from '../views/Home.vue';
-import Gathering from '../views/Gathering.vue';
-// import viewName from "../views/ViewName.vue"
+import Crafting from '../views/Crafting.vue';
 
 Vue.use(VueRouter);
 
@@ -14,9 +13,9 @@ const routes = [
     component: Home
   },
   {
-    path: '/Gathering.vue',
-    name: 'Gathering',
-    component: Gathering
+    path: '/',
+    name: 'Crafting',
+    component: Crafting
   }
   //{
   //  path: '/viewName',

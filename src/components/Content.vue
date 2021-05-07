@@ -1,13 +1,15 @@
 <template>
-  <div class="container">
+  <div>
     hello
   </div>
 </template>
 
 <script>
-
 export default {
-  name: 'Home',
-  components: {}
+  name: 'Content',
+  props: {},
+  computed: {}
 };
 </script>
+
+<style scoped></style>
