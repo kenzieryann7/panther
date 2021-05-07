@@ -1,7 +1,17 @@
 <template>
   <div>
     <h1 class="text-center">The Elder Scrolls Online</h1>
-    <div class="card text-white bg-dark mb-3">
+    <div class="card shadow-lg text-white bg-dark mb-3">
+      <img src="@/assets/blackwood.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 class="card-title">Blackwood Chapter</h4>
+        <p class="card-text"><small class="text-white">Coming June 2021</small></p>
+        <p class="card-text">
+          This DLC chapter is a look back in time. The story takes places 800 years before the tragic events of The Elder Scrolls IV Oblivion. You follow the schemes of the Daedric Prince Mehrunes Dagon.
+        </p>
+      </div>
+    </div>
+    <div class="card shadow-lg text-white bg-dark mb-3">
       <div class="card-header"><h4>About</h4></div>
       <div class="card-body">
         <p class="card-text mb-3">
