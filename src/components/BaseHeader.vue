@@ -14,13 +14,13 @@
       <!-- Below is where it populates the nav links -->
       <div class="collapse navbar-collapse mainNav" id="navbarTogglerDemo03">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item">
+          <li class="nav-item navText">
             <router-link :to="{ name: 'Home' }" class="nav-link"
               >Home</router-link
             >
           </li>
           <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle navText" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Crafting
           </a>
           <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">

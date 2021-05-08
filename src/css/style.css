@@ -21,8 +21,12 @@ body {
 }
 
 .dropdown-menu > li > a:hover {
-    background-image: none;
-    background-color: slategray;
+    background-color: lightseagreen;
+    border: 2px solid #dadada;
+    border-radius: 7px;
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
 }
 
 .mainNav {
@@ -49,4 +53,31 @@ body {
 
 .blackwood {
     background-image: url("/assets/blackwood.jpg");
+}
+
+a:hover {
+    color: lightseagreen;
+}
+
+a {
+    color: white;
+}
+
+.btn:hover {
+    background-color: lightseagreen;
+    border: 2px solid #dadada;
+    border-radius: 7px;
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+
+}
+
+.navText:hover {
+    background-color: lightseagreen;
+    border: 2px solid #dadada;
+    border-radius: 7px;
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
 }
