@@ -24,7 +24,7 @@
               <b>Improvement:</b> You can improve the quality of the items you craft. There is a chance the improvement will be successful dependant on how much improvement material you use.
             </li>
             <li class="mb-2">
-              <b>Inspiration:</b> This is the crafting experience you earn in the game and accumulates independantly. You can earn inspiration by crafting or deconstructing items, researching, finding recipies or plans, or completing crafting writs. Depending on the level and quality of the item you are working on will determine how much inspriation is awarded. It is wise to stay in your level scope to minimize the materials wasted for unsuccessful attempts or unwanted outcomes.
+              <b>Inspiration:</b> This is the crafting experience you earn in the game and each profession accumulates it independantly. You can earn inspiration by crafting or deconstructing items, researching, finding recipies or plans, or completing crafting writs. Depending on the level and quality of the item you are working on will determine how much inspriation is awarded. It is wise to stay in your level scope to minimize the materials wasted for unsuccessful attempts or unwanted outcomes.
             </li>
             <li class="mb-2">
               <b>Passive Abilities:</b> Within your skill menu there are passive abilities for all the professions. Here you can spend points to grant yourself benefits associated with that profession. They enchance your crafting abilities and unlocks new possiblities with your materials gathered.
@@ -36,16 +36,16 @@
               <b>Research:</b> This is how you discover traits for your crafted items to enchance that particluar item. 
             </li>
             <li class="mb-2">
-              <b>Styles:</b>
+              <b>Styles:</b> The look of your armor or weapons are based on racial styles such as Dunmer, Nord, Breton, etc.
             </li>
             <li class="mb-2">
-              <b>Set Bonuses:</b>
+              <b>Set Bonuses:</b> There are armor sets you can find when doing dungeons or PVP content. When you equip a certain amount of the same gear set, you can gain set bonuses that enhance your stats and abilities. For instance, you can find sets that help with stat recovery, or magicka dammage done.
             </li>
             <li class="mb-2">
-              <b>Traits:</b>
+              <b>Traits:</b> You can add traits to items you craft to enhance its abilities.
             </li>
             <li class="mb-2">
-              <b>Transmutation:</b>
+              <b>Transmutation:</b> The Transmutation Station allows you to alter your items through crystals created by powerful events. Before you can change an items trait, make sure you have researched the trait you plan to replace.
             </li>
           </ul>
         </p>

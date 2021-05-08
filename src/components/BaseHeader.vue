@@ -19,8 +19,8 @@
               >Home</router-link
             >
           </li>
-          <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle navText" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <li class="nav-item dropdown navText">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Crafting
           </a>
           <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
