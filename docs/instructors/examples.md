@@ -1,5 +1,0 @@
-# Examples
-
-## Typical Implementations
-
-## Showcase

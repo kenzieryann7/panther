@@ -1,28 +1,26 @@
 <template>
-  <div id="app">
-    <BaseHeader />
-    <div class="row">
-      <div class="col"></div>
-
-      <div class="col-10 contentBackdrop p-0 rounded shadow shadow-lg">
-        <router-view />
-      </div>
-
-      <div class="col"></div>
-    </div>
-
-  </div>
+  <Navbar />
+  <HomeContent />
 </template>
 
+<script>
+import Navbar from './components/Navbar.vue'
+import HomeContent from './components/HomeContent.vue'
+
+export default {
+  name: 'App',
+  components: {
+    Navbar,
+    HomeContent
+  }
+}
+</script>
 
 <style>
-body {
-  padding: 0;
-  font-family: 'Open Sans';
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-.contentBackdrop {
-    background-color: rgb(148, 148, 148);
+  color: #2c3e50;
 }
 </style>
